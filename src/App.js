@@ -33,7 +33,7 @@ class App extends Component {
       CS513: "CS513",
       EC511: "EC511"
     },
-    CGPA: null,
+    SGPA: null,
     showNotification: true
   };
 
@@ -93,8 +93,8 @@ class App extends Component {
       total = total + GRADE_POINT[subject] * this.state.subjects[subject];
     }
 
-    const CGPA = total / TOTAL_GRADE_POINTS; // Total points = 25
-    this.setState({ CGPA });
+    const SGPA = total / TOTAL_GRADE_POINTS; // Total points = 25
+    this.setState({ SGPA });
   };
 
   hideNotification = () => {
@@ -107,10 +107,10 @@ class App extends Component {
     });
   };
 
-  renderCGPA = () => {
-    const { CGPA } = this.state;
-    if (CGPA !== null) {
-      return <div className="title is-size-3 cgpa">Your CGPA: {CGPA}</div>;
+  renderSGPA = () => {
+    const { SGPA } = this.state;
+    if (SGPA !== null) {
+      return <div className="title is-size-3 sgpa">Your SGPA: {SGPA}</div>;
     }
     return null;
   };
@@ -122,12 +122,12 @@ class App extends Component {
           isVisible={this.state.showNotification}
           hideNotification={this.hideNotification}
         />
-        <h1 className="header title">CGPA Calculator</h1>
+        <h1 className="header title">SGPA Calculator</h1>
         <div className="columns">{this.renderSubjects()}</div>
         <button className="button is-primary" onClick={this.handleSubmit}>
           Calculate
         </button>
-        {this.renderCGPA()}
+        {this.renderSGPA()}
         <div className="table-container">
           <SubjectTable />
           <GradePointTable />
