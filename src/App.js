@@ -7,15 +7,15 @@ import SubjectTable from "./SubjectTable";
 import GradePointTable from "./GradePointTable";
 
 const GRADE_POINT = {
-  HU501: 3,
-  CS501: 4,
-  CS502: 3,
-  CS503: 3,
-  EC501: 3,
-  CS511: 2,
-  CS512: 2,
-  CS513: 3,
-  EC511: 2
+  HU601: 3,
+  CS601: 3,
+  CS602: 3,
+  CS603: 4,
+  "CS621/CS622": 3,
+  CS611: 2,
+  CS612: 2,
+  CS613: 2,
+  CS614: 3
 };
 
 const TOTAL_GRADE_POINTS = 25;
@@ -23,15 +23,15 @@ const TOTAL_GRADE_POINTS = 25;
 class App extends Component {
   state = {
     subjects: {
-      HU501: "HU501",
-      CS501: "CS501",
-      CS502: "CS502",
-      CS503: "CS503",
-      EC501: "EC501",
-      CS511: "CS511",
-      CS512: "CS512",
-      CS513: "CS513",
-      EC511: "EC511"
+      HU601: "HU601",
+      CS601: "CS601",
+      CS602: "CS602",
+      CS603: "CS603",
+      "CS621/CS622": "CS621/CS622",
+      CS611: "CS611",
+      CS612: "CS612",
+      CS613: "CS613",
+      CS614: "CS614"
     },
     SGPA: null,
     showNotification: true

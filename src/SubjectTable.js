@@ -19,49 +19,49 @@ export default function SubjecTable() {
         </thead>
         <tbody>
           <tr>
-            <td>HU501</td>
-            <td>Logic And Reasoning</td>
+            <td>HU601</td>
+            <td>Values & Ethics in Profession</td>
             <td>3</td>
           </tr>
           <tr>
-            <td>CS501</td>
-            <td>Algorithms</td>
+            <td>CS601</td>
+            <td>Compiler Design</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>CS602</td>
+            <td>Database Management System</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>CS603</td>
+            <td>Computer Networks</td>
             <td>4</td>
           </tr>
           <tr>
-            <td>CS502</td>
-            <td>Operation Systems</td>
+            <td>CS621/CS622</td>
+            <td>Graph Theory/NLP</td>
             <td>3</td>
           </tr>
           <tr>
-            <td>CS503</td>
-            <td>Machine Learning</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>EC501</td>
-            <td>Microcontroller</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>CS511</td>
-            <td>Algorithms Lab</td>
+            <td>CS611</td>
+            <td>Compiler Design Lab</td>
             <td>2</td>
           </tr>
           <tr>
-            <td>CS512</td>
-            <td>Operating Systems Lab</td>
+            <td>CS612</td>
+            <td>Database Management System Lab</td>
             <td>2</td>
           </tr>
           <tr>
-            <td>CS513</td>
+            <td>CS613</td>
+            <td>Computer Networks Lab</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>CS614</td>
             <td>Project</td>
             <td>3</td>
-          </tr>
-          <tr>
-            <td>EC511</td>
-            <td>Microcontroller Lab</td>
-            <td>2</td>
           </tr>
         </tbody>
       </table>
