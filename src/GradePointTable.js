@@ -36,12 +36,8 @@ export default function GradePointTable() {
             <td>6</td>
           </tr>
           <tr>
-            <td>E</td>
-            <td>5</td>
-          </tr>
-          <tr>
             <td>P</td>
-            <td>4</td>
+            <td>5</td>
           </tr>
           <tr>
             <td>F</td>

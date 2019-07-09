@@ -52,8 +52,7 @@ class App extends Component {
               <option value="8">B</option>
               <option value="7">C</option>
               <option value="6">D</option>
-              <option value="5">E</option>
-              <option value="4">P</option>
+              <option value="5">P</option>
               <option value="0">F</option>
             </select>
           </div>
