@@ -1,6 +1,6 @@
 ## SGPA Calculator
 
-A simple SGPA Calculator for 5th Semester IIIT Kalyani Students. It is built with Create React App.
+A simple SGPA Calculator for 6th Semester IIIT Kalyani Students. It is built with Create React App.
 
 [Click Here](https://sgpa-calculator.netlify.com/) to visit the live site.
 
